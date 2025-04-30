@@ -1,0 +1,410 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.flex
+{
+    display:flex;
+}
+.marginauto
+{
+    margin:0 auto;
+    max-width: 1440px;
+}
+.headw
+{
+    width: 95%;
+}
+.nodec
+{
+    text-decoration: none;
+    list-style: none;
+    color: #114165;
+    font-family: "Open Sans", sans-serif;
+}
+.navwidth
+{width: 102%;}
+.ip
+{padding-left:5px}
+.align
+{
+align-items:center;
+}
+.h22{
+ /* margin-right:50px; */
+}
+.jcsb
+{
+    justify-content:space-between;
+}
+.ulw
+{/* margin-left: 20%; */}
+.headborder
+{
+    border-bottom: 1px ridge gainsboro;
+    padding: 13px 0px;
+}
+.onefont
+{
+    font-family: "Poppins", sans-serif;
+}
+.twofont
+{
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+}
+.divide{
+ margin-right: 0;
+}
+.secondwidth
+{
+    width: 49%;
+    margin-top: 6.5%;
+    margin-bottom: 60px;
+}
+.textalign
+{
+    text-align:center;
+}
+.headsize
+{
+    font-size: 25px;
+    font-weight: 400;
+}
+.bold
+{
+    font-weight:500;
+}
+.w100
+{
+ width: 65%;
+}
+.jce
+{
+ justify-content:flex-end;
+}
+.secondfontw
+{
+    font-weight:700;
+    font-size: 45px;
+    color: #114165;
+    line-height: 63px;
+}
+.btn1
+{
+    padding: 13px 24px;
+    background:#2487ce;
+    border:1px solid #2487ce;
+    color:white;
+    border-radius:5px;
+    font-family: "Open Sans", sans-serif;
+    width: 85px;
+    justify-content: center;
+    
+}
+.btn2
+{
+    padding: 15px 30px;
+    border:1px solid #2487ce;
+    border-radius:5px;
+    color:white;
+    background:#2487ce;
+}
+.btn1:hover,.btn2:hover{
+    color:#2487ce;
+    background-color: white;
+    border: 1px solid #2487ce ;
+    transition: 1s;
+}
+
+.margintop2
+{
+    margin-top: 13px;
+    font-weight: 500;
+}
+.margintop3
+{
+    margin-top: 29px;
+}
+.td
+{
+    width: 50%;
+    box-shadow: 0px 0px 16px rgb(30 144 255 / 15%);
+    padding: 60px 20px 45px 24px;
+    margin: 5px;
+}
+.third{
+    margin-top: 7%;
+}
+.iconsize
+{
+    font-size: 25px;
+    color: #2487ce;
+}
+.dropdown
+{
+    border:none;
+    font-size: 15px;
+    margin-top: -2px;
+    color: #114165;
+}
+.fontcolor
+{
+ color:#114165;   
+}
+.parag
+{
+    margin-top: 14px;
+    line-height: 27px;
+    padding-right: 5px;
+    margin-left: 6px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.click:hover
+{
+    color:dodgerblue;
+}
+.loremargin
+{
+	margin-top: 11px;
+	font-weight: 700;
+	margin-left: 6px;
+	width: 99%;
+	font-size: 18px;
+	justify-content: center;
+	font-family: "Poppins", sans-serif;
+}
+.fw
+{
+	color:white;
+}
+.relative
+{
+	position:relative;
+}
+.abs
+{
+	position:absolute;
+}
+.wholeposition
+{
+	top:0;
+	background: white;
+	opacity: 88%;
+	height: 100vh;
+}
+.bg
+{
+ background-image: url('../img/bg.jpg');
+ height: 100vh;
+ background-attachment: fixed;
+ max-width: 1440px;
+}
+.marlept
+{
+ margin-left: 6px;
+}
+.spacing
+{
+ padding-right: 3%;
+}
+.jcc
+{
+ justify-content:center;
+ 
+}
+@media screen and (max-width:1024px)
+{
+    
+    .headsize,.btn1
+    {
+        transform: scale(1);
+        width: 116PX;
+    
+    }
+    .spacing,.w100{
+        width: 76%;
+    }
+    .secondwidth
+    {
+        width: 100%;
+        transform: scale(1.0);
+        margin-top: 70px;
+    }
+    .third,td{
+        width: 97%;
+        margin-top: 10%;
+        display: block;
+        transform: scale(1.0);
+        padding-left: 1.5%;
+    }
+    .divide{
+        width: 100%;
+        display: flex;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .td
+    {
+        width:100%;
+        display:block;
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+    .spacing,.w100{
+        width: 76%;
+    }
+    .nodec,.dropdown{
+        font-size: 12px;
+    }
+    .divide{
+        width: 100%;
+        display: flex;
+    }
+    .third{
+    }
+}
+@media screen and (max-width:700px)
+{
+ .dropdown,.navwidth{
+    display:none;
+ }
+}
+@media screen and (max-width:425px)
+{
+    body{
+        width: 100%;
+    }
+    .divide{
+        display:block;
+    }
+    .headborder,.abs
+    {
+        width: 100%;
+    }
+    .loremargin,.iconsize{
+        font-size:12px;
+    }
+    .margintopp
+    {
+        margin-top: 5px;
+    }
+    .btn2
+    {
+        width: 20%;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    .btn1{
+        width: 50%;
+    }
+
+    .secondwidth{
+        width: 100%;
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 3%;
+        margin-bottom: 8%;
+    }
+    .secondfontw{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .margintop2{
+        margin-top: 2%;
+    }
+    .third{
+        width: 98%;
+        margin-top: 0;
+    }
+    .headsize{
+        font-size: 10px;
+        width: 103px;
+        /* height: 28px; */
+        /* display: flex; */
+        align-items: center;
+        /* padding-left: 21px; */
+    }
+    
+    .parag{
+        font-size: 10px;
+        line-height: 2;
+    }
+    .td
+    {
+        width: 93%;
+        font-size: 12px;
+        margin-bottom: 5px;
+        padding-bottom: 7;
+        padding-left: 5px;
+    }  
+}
+@media screen and (max-width:375px)
+{
+    .divide
+    {
+        display:block;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .td{
+        padding-bottom:10px;
+        width: 80%;
+        margin-bottom: 12px;
+    }
+    .parag{
+        margin-top: 2%;
+        line-height: 15px;
+    }
+    .btn1{
+        padding: 10px 20px;
+    }
+
+}
+
+@media screen and (max-width:757){
+    .btn1{
+        padding:1px 2px;
+    }
+}
